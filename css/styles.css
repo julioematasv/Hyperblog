@@ -5,27 +5,61 @@ body {
   font-size: 16px;
 }
 
-.container {
-  width: 70%;
-  padding: 1rem;
-  text-align: left;
-  border: 1px solid #ddd;
-  margin: 0 auto;
-}
-
-.container h1 {
-  font-size: 1.4rem;
-}
-
-#cabecera {
+header {
+  display: flex;
+  justify-content: space-evenly;
   background-color: #33A;
   box-shadow: 0px 2git compx 20px 0px rgba(0,0,0,0.5);
   color: #FFF;
   margin: 0;
   padding: 0.5rem;
-  font-weight: bold;
+  width: 100%;
+}
+.logotipo {
+  width: 20%;
+}
+.logotipo a img {
+  width: 4rem;
 }
 
-#cabecera span {
+.tituloCabecera {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.tituloCabecera h1 {
+  font-size: 1.2rem;
+  display: inline-block;
+}
+.tituloCabecera h2 {
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.tituloCabecera a {
+  text-decoration: none;
+}
+
+.tituloCabecera span {
   font-size: 1.5rem;
+}
+
+.navPrincipal {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navPrincipal ul li {
+  display: inline-block;
+  padding: 0 0.5rem;
+}
+
+.navPrincipal ul li a {
+  text-decoration: none;
+  color: #FFF
 }
